@@ -1,0 +1,26 @@
+.home{
+    background-color:#242020;
+    color:white;
+    height:400px;
+    text-align: justify;
+}
+
+.me{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.my-image{
+    width:50%;
+    height:auto;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin-top: 40px;
+}
+
+.resume{
+    color: aliceblue;
+}
+.resume:hover{
+    color:antiquewhite;
+}
