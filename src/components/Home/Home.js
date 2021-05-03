@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="home w-100">
       <Row className="row justify-content-md-center align-items-md-center">
-        <Col className="col-sm-12 col-xs-12 col-md-5 mt-auto">
+        <Col className="col-sm-12 col-md-5 mt-auto">
           <div className="mt-5">
             <h1 className="me">Hey, I'm Shahibur</h1>
             <Typing>
@@ -22,8 +22,8 @@ const Home = () => {
           </div>
         </Col>
 
-        <Col className="col-sm-12 col-xs-12 col-md-5 mt-auto text-center">
-          <img className="my-image img-fluid" src={me} alt="" />
+        <Col className="col-sm-12 col-md-5 mt-auto">
+         <div className="text-center"> <img className="my-image img-fluid" src={me} alt="" /></div>
         </Col>
       </Row>
     </div>
