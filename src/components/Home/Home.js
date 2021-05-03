@@ -23,7 +23,7 @@ const Home = () => {
         </Col>
 
         <Col className="col-sm-12 col-xs-12 col-md-5 mt-auto text-center">
-          <img className="my-image" src={me} alt="" />
+          <img className="my-image img-fluid" src={me} alt="" />
         </Col>
       </Row>
     </div>
