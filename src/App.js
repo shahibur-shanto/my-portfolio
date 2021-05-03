@@ -9,6 +9,7 @@ import Blog from './components/Blog/Blog';
 import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path='/'>
         <NavBar/>
         <Home/>
+        <Skills/>
         <Projects/>
         </Route>
         <Route exact path='/portfolio'>

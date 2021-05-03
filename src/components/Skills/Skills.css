@@ -1,0 +1,17 @@
+
+.skill-div{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+    background-color:rgb(61, 211, 211);
+}
+@media screen and (min-width: 480px) {
+    .skill-div{
+        margin-top: 200px;
+        }
+  }
+  @media screen and (min-width: 720px) {
+    .skill-div{
+        margin-top: 20px;
+        }
+  }
