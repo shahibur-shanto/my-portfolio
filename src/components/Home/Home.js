@@ -1,5 +1,4 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
 import Typing from "react-typing-animation";
 import "./Home.css";
 import me from "../../images/me.png";
