@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="col-md-5">
                 <h1>Computer Valley</h1>
                     <img className="w-100" src={computer} alt=""/>
-                    <p>This is a Math Couching Site. Where students can enroll various types of course. Users can review the course, view their entitled course, make payment through credit cards. Admin can add course, delete course, change status of the course. Also make an admin.</p>
+                    <p>This is a Computer Shop Project where people add their product with price dynamically. Also book their product and show their all ordered product. Delete Product is implemented in this project.</p>
                     <Link className="btn btn-primary">Live Link</Link>
                     <Link className="btn btn-success">Code Link</Link>
                 </div>

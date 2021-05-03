@@ -10,6 +10,8 @@ import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
+import ContactUs from './components/ContactUs/ContactUs';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Home/>
         <Skills/>
         <Projects/>
+        <ContactUs/>
+        <Footer/>
         </Route>
         <Route exact path='/portfolio'>
         <NavBar/>
@@ -28,7 +32,8 @@ function App() {
         </Route>
         <Route exact path='/about'>
         <NavBar/>
-        <About/>
+        <ContactUs/>
+        <Footer/>
         </Route>
         <Route exact path='/blog'>
         <NavBar/>
