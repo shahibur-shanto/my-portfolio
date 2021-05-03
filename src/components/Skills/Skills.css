@@ -10,8 +10,18 @@
         margin-top: 200px;
         }
   }
+  @media screen and (min-width: 520px) {
+    .skill-div{
+        margin-top: 50px;
+        }
+  }
   @media screen and (min-width: 720px) {
     .skill-div{
         margin-top: 20px;
+        }
+  }
+  @media screen and (min-width: 690px) {
+    .skill-div{
+        margin-top: 100px;
         }
   }
